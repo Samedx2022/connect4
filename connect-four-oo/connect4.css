@@ -1,0 +1,38 @@
+/* game board table */
+
+#board td {
+  width: 50px;
+  height: 50px;
+  border: solid 1px #666;
+}
+
+/* pieces are div within game table cells: draw as colored circles */
+
+.piece {
+  margin: 5px;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+}
+/* column-top is table row of clickable areas for each column */
+
+#column-top td {
+  border: dashed 1px lightgray;
+}
+
+#column-top td:hover {
+  background-color: gold;
+}
+
+#start {
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 12%;
+  border: 0 1px black;
+}
+
+#start:hover {
+  background-color: #8f8b8b;
+  transition: ease-in-out 0.50s;
+}
